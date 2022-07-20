@@ -1,0 +1,296 @@
+[
+    {
+        "sys": { "id": "1" },
+        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } },
+        "fields": {
+          "title": "queen panel bed",
+          "price": "10.99",
+          "count": "1",
+          "year": "1999",
+          "color": "red",
+          "producer": "ikea",
+          "popular": "yes",
+          "guarantee": "1"
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } },
+        "fields": {
+          "title": "king panel bed",
+          "price": "12.99",
+          "count": "2",
+          "year": "1997",
+          "color": "green",
+          "producer": "marcos",
+          "popular": "no",
+          "guarantee": "2"
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } },
+        "fields": {
+          "title": "single panel bed",
+          "price": "12.99",
+          "count": "3",
+          "year": "2011",
+          "color": "blue",
+          "producer": "liddy",
+          "popular": "no",
+          "guarantee": "3"
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } },
+        "fields": {
+          "title": "twin panel bed",
+          "price": "22.99",       
+          "count": "4",
+          "year": "1995",
+          "color": "red",
+          "producer": "caressa",
+          "popular": "yes",
+          "guarantee": "2"
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } },
+        "fields": {
+          "title": "fridge",
+          "price": "88.99",
+          "count": "5",
+          "year": "2003",
+          "color": "red",
+          "producer": "ikea",
+          "popular": "yes",
+          "guarantee": "1"
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } },
+        "fields": {
+          "title": "dresser",
+          "price": "32.99",
+          "count": "10",
+          "year": "1991",
+          "color": "blue",
+          "producer": "marcos",
+          "popular": "yes",
+          "guarantee": "2"
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } },
+        "fields": {
+          "title": "couch",
+          "price": "45.99",      
+          "count": "6",
+          "year": "2020",
+          "color": "green",
+          "producer": "caressa",
+          "popular": "yes",
+          "guarantee": "1"
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } },
+        "fields": {
+          "title": "table",
+          "price": "33.99",
+          "count": "1",
+          "year": "1996",
+          "color": "blue",
+          "producer": "liddy",
+          "popular": "yes",
+          "guarantee": "3"
+        }
+    },
+    {
+      "sys": { "id": "9" },
+      "image": { "fields": { "file": { "url": "./images/product-9.jpg" } } },
+      "fields": {
+        "title": "brown table",
+        "price": "33.99",
+        "count": "2",
+        "year": "2017",
+        "color": "red",
+        "producer": "ikea",
+        "popular": "no",
+        "guarantee": "2"
+      }
+  },
+  {
+    "sys": { "id": "10" },
+    "image": { "fields": { "file": { "url": "./images/product-10.jpg" } } },
+    "fields": {
+      "title": "elite table",
+      "price": "33.99",
+      "count": "2",
+      "year": "2007",
+      "color": "red",
+      "producer": "liddy",
+      "popular": "no",
+      "guarantee": "2"
+    }
+},
+{
+  "sys": { "id": "11" },
+  "image": { "fields": { "file": { "url": "./images/product-11.jpg" } } },
+  "fields": {
+    "title": "red table",
+    "price": "33.99",
+    "count": "9",
+    "year": "2008",
+    "color": "red",
+    "producer": "caressa",
+    "popular": "no",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "12" },
+  "image": { "fields": { "file": { "url": "./images/product-12.jpg" } } },
+  "fields": {
+    "title": "yellow table",
+    "price": "233.99",
+    "count": "11",
+    "year": "2011",
+    "color": "blue",
+    "producer": "liddy",
+    "popular": "no",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "13" },
+  "image": { "fields": { "file": { "url": "./images/product-13.jpg" } } },
+  "fields": {
+    "title": "black table",
+    "price": "23.99",
+    "count": "1",
+    "year": "2012",
+    "color": "red",
+    "producer": "liddy",
+    "popular": "no",
+    "guarantee": "2"
+  }
+},
+{
+  "sys": { "id": "14" },
+  "image": { "fields": { "file": { "url": "./images/product-14.jpg" } } },
+  "fields": {
+    "title": "dark table",
+    "price": "40.99",
+    "count": "1",
+    "year": "2012",
+    "color": "blue",
+    "producer": "caressa",
+    "popular": "no",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "15" },
+  "image": { "fields": { "file": { "url": "./images/product-15.jpg" } } },
+  "fields": {
+    "title": "purple table",
+    "price": "140.99",
+    "count": "2",
+    "year": "2014",
+    "color": "red",
+    "producer": "liddy",
+    "popular": "no",
+    "guarantee": "3"
+  }
+},
+{
+  "sys": { "id": "16" },
+  "image": { "fields": { "file": { "url": "./images/product-16.jpg" } } },
+  "fields": {
+    "title": "purple bed",
+    "price": "240.99",
+    "count": "3",
+    "year": "2015",
+    "color": "red",
+    "producer": "ikea",
+    "popular": "yes",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "17" },
+  "image": { "fields": { "file": { "url": "./images/product-17.jpg" } } },
+  "fields": {
+    "title": "green bed",
+    "price": "440.99",
+    "count": "3",
+    "year": "2015",
+    "color": "green",
+    "producer": "ikea",
+    "popular": "yes",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "18" },
+  "image": { "fields": { "file": { "url": "./images/product-18.jpg" } } },
+  "fields": {
+    "title": "royal bed",
+    "price": "540.99",
+    "count": "1",
+    "year": "2016",
+    "color": "blue",
+    "producer": "liddy",
+    "popular": "yes",
+    "guarantee": "2"
+  }
+},
+{
+  "sys": { "id": "19" },
+  "image": { "fields": { "file": { "url": "./images/product-19.jpg" } } },
+  "fields": {
+    "title": "elite bed",
+    "price": "540.99",
+    "count": "2",
+    "year": "2017",
+    "color": "red",
+    "producer": "caressa",
+    "popular": "no",
+    "guarantee": "2"
+  }
+},
+{
+  "sys": { "id": "20" },
+  "image": { "fields": { "file": { "url": "./images/product-20.jpg" } } },
+  "fields": {
+    "title": "gold bed",
+    "price": "640.99",
+    "count": "1",
+    "year": "2019",
+    "color": "green",
+    "producer": "marcos",
+    "popular": "yes",
+    "guarantee": "1"
+  }
+},
+{
+  "sys": { "id": "21" },
+  "image": { "fields": { "file": { "url": "./images/product-21.jpg" } } },
+  "fields": {
+    "title": "crime bed",
+    "price": "140.99",
+    "count": "2",
+    "year": "2021",
+    "color": "green",
+    "producer": "ikea",
+    "popular": "yes",
+    "guarantee": "2"
+  }
+}
+]

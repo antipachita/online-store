@@ -1,0 +1,23 @@
+import './global.css';
+import './global-options';
+import drawElements from './draw-products-cards';
+import CreatCardsorting from './sort';
+import createRangeFilter from './range-filter';
+import filters from './filters';
+import createResetBtn from './reset-btn';
+import createSearch from './create-serch-placeholder';
+import createBasketCounter from './basket-counter';
+import createResetStorageBtn from './reset-local-storage';
+drawElements();
+const sorting = new CreatCardsorting();
+sorting.cardsSort();
+createRangeFilter();
+filters.popularFilter();
+filters.producerSort();
+filters.colorSort();
+filters.guaranteeFilter();
+createResetBtn();
+createSearch();
+createBasketCounter();
+createResetStorageBtn();
+

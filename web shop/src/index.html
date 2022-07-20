@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>NewsPortal</title>
+        
+    </head>
+    <body>
+      <header>
+       	<nav>            
+          <div class="logo-shop"></div>
+          <div class="cart">
+            <span class="cart_txt">Cart</span>
+            <div class="basket">
+              <div class="products_counter">
+                0
+              </div>
+            </div>
+          </div>
+      	</nav>
+      </header>
+        <main>
+          <section class="name_section">
+            <div class="name_container">
+              <h1>Home</h1>
+            </div>
+          </section>
+          <section class="products_section">
+            <div class="products_container">
+              <div class="category_bar">
+                <div class="category_box">
+                  <h2>Category</h2>
+                  <ul class="category_list">
+                  </ul>
+                </div>
+                <div class="range_box">
+                  <h3>Range filters</h3>
+                  <div class="count_filter_container">
+                    <div class="first_input_count">0</div>
+                    <div class="cards_filter">
+                      <input type="range" min="0" step="1" max="11" value="0" class="first_input">
+                      <input type="range" min="0" step="1" max="11" value="11">
+                    </div>
+                    <div class="second_input_count">11</div>
+                  </div>
+                  <div class="year_filter_container">
+                    <div class="first_input_year">1990</div>
+                    <div class="cards_filter">
+                      <input type="range" min="1990" step="1" max="2022" value="1990" class="second_input">
+                      <input type="range" min="1990" step="1" max="2022" value="2022">
+                    </div>
+                    <div class="second_input_year">2022</div>
+                  </div>
+                </div>
+                <div class="popular_category">
+                <h3 class="popular_title">Popularity:</h3>
+                  Only popular:
+                  <input type="checkbox" class="favorite-input" id="favorite">
+                </div>
+                <div class="producer_category">
+                  <h3 class="producer_title">Company:</h3>
+                  <select name="company" id="company" class="company">
+                    <option value="all">all</option>
+                    <option value="marcos">marcos</option>
+                    <option value="liddy">liddy</option>
+                    <option value="ikea">ikea</option>
+                    <option value="caressa">caressa</option>
+                  </select>
+                </div>
+                <div class="color_category">
+                  <h3 class="producer_title">Colors:</h3>
+                  <div class="colors_type_style">
+                    <div class="colors_type_item all">All</div>
+                    <div class="colors_type_item red"></div>
+                    <div class="colors_type_item blue"></div>
+                    <div class="colors_type_item green"></div>
+                  </div>
+                </div>
+                <div class="guarantee_category">
+                  <h3 class="guarantee_title">Years of warranty:</h3>
+                  1 year<input type="checkbox" class="one_year year_input" id="checkbox" checked>
+                  2 year<input type="checkbox" class="two_year year_input" id="checkbox" checked>
+                  3 year<input type="checkbox" class="three_year year_input" id="checkbox" checked>
+                </div>
+                <div><button  class="reset">Reset</button></div>
+                <div><button  class="reset-storage">Reset saved settings</button></div>
+              </div>
+              <div class="product_bar">
+                <div class="search-filter-bar">
+                  <form>
+                    <label for="sort">sort by</label>
+                    <select name="sort" id="sort" class="sort-input">
+                      <option value="none">none</option>
+                      <option value="year-lowest">year-lowest</option>
+                      <option value="year-highest">year-highest</option>
+                      <option value="name-a">name-a</option>
+                      <option value="name-z">name-z</option>
+                    </select>
+                  </form>
+                  <div class="searchWrapper">
+                    <input placeholder="input text" type="text" class="search" value="" autocomplete="off">
+                    <div class="clear_search"></div>
+                  </div>
+                </div>
+                <div class="product_display">
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <div class="footer_container">
+            <div><a href="https://github.com/antipachita" class="github-link">Antipachita +1</a></div>
+            <div class="year">2022</div>
+            <a href="https://rs.school/js/"><div class="logo"></div></a>
+          </div>
+        </footer>
+      
+
+      
+    </body>
+</html>
